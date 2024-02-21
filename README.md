@@ -1,30 +1,55 @@
-# React + TypeScript + Vite
+# Voice GPT Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Voice GPT Frontend is a React application built with Vite and Tailwind CSS. It provides a voice-controlled chat interface with an AI-generated audio response, powered by the Voice GPT backend service.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Voice-controlled chat interface.
+- Real-time interaction with the Voice GPT backend service.
+- AI-generated audio responses based on user input.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    git clone https://github.com/your-username/voice-gpt-frontend.git
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+2. Navigate to the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    cd voice-gpt-frontend
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+## Usage
+
+1. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+2. Access the application in your browser at `http://localhost:3000`.
+
+3. Interact with the voice-controlled chat interface to send messages to the Voice GPT backend and receive AI-generated audio responses.
+
+## Technologies Used
+
+- React: JavaScript library for building user interfaces.
+- Vite: Fast, modern build tooling for JavaScript and TypeScript projects.
+- Tailwind CSS: Utility-first CSS framework for rapidly building custom designs.
+
+## Folder Structure
+
+- `/src`: Contains the source code for the React application.
+- `/public`: Contains static assets such as images, icons, and HTML files.
+
+## Contributors
+- NikoJT
